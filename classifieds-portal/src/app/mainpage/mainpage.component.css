@@ -1,0 +1,60 @@
+.offer-content a {
+    width: 100%;
+}
+
+#left-pane {  
+    margin-top: 2%;
+    padding-top: 15px;
+    border-style: outset;                                                                                                                                                      
+    border-width: 15%;
+    border-bottom:none;
+    border-collapse: separate;
+    height: 4000px; 
+}
+
+#left-pane>div {
+    margin: 5% 2%;
+    position: fixed;
+    top: 30%;
+}
+
+#left-pane a {
+    padding: 10px 30px;
+    width: 90%;
+}
+
+#right-pane {
+    float:right;
+    padding: 0px 30px;
+}
+
+.offer-content {
+    margin-top: 40px;
+    width: 30%;
+    border: 1px solid rgb(212, 209, 209);
+    border-bottom: none;
+    display: inline-block;
+    padding: 0px;
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul>li {
+    display: inline-block;
+}
+
+input.form-control {
+    display: inline;
+}
+
+.offer-content a {
+    background-color: rgba(7, 135, 194, 0.993) !important;
+}
+
+button.material-icons {
+    border: none;
+    background: transparent;
+}
